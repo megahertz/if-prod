@@ -15,7 +15,7 @@
     "test": "test/if-prod.test.sh"
   },
   "files": [
-    "if-prod.sh"
+    "index.js"
   ],
   "keywords": [
     "npm",
