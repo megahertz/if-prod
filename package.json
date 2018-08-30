@@ -1,0 +1,32 @@
+{
+  "name": "if-prod",
+  "version": "1.0.0",
+  "description": "Is npm script run in prod/dev/test environment",
+  "bin": {
+    "if-dev": "if-prod.sh",
+    "if-prod": "if-prod.sh",
+    "if-test": "if-prod.sh",
+    "if-not-dev": "if-prod.sh",
+    "if-not-prod": "if-prod.sh",
+    "if-not-test": "if-prod.sh"
+  },
+  "scripts": {
+    "test": "test/if-prod.test.sh"
+  },
+  "files": [
+    "if-prod.sh"
+  ],
+  "keywords": [
+    "npm",
+    "shell",
+    "environment",
+    "NODE_ENV",
+    "production",
+    "development"
+  ],
+  "author": "Alexey Prokhorov",
+  "license": "MIT",
+  "bugs": "https://github.com/megahertz/if-prod/issues",
+  "homepage": "https://github.com/megahertz/if-prod#readme",
+  "repository": "megahertz/if-prod"
+}
