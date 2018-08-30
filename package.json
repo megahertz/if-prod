@@ -1,14 +1,15 @@
 {
   "name": "if-prod",
-  "version": "1.0.0",
-  "description": "Is npm script run in prod/dev/test environment",
+  "version": "1.0.1",
+  "description": "Conditional running of npm scripts depending on environment",
+  "main": "index.js",
   "bin": {
-    "if-dev": "if-prod.sh",
-    "if-prod": "if-prod.sh",
-    "if-test": "if-prod.sh",
-    "if-not-dev": "if-prod.sh",
-    "if-not-prod": "if-prod.sh",
-    "if-not-test": "if-prod.sh"
+    "if-prod": "index.js",
+    "if-dev": "index.js",
+    "if-env-is": "index.js",
+    "if-not-prod": "index.js",
+    "if-not-dev": "index.js",
+    "if-not-env-is": "index.js"
   },
   "scripts": {
     "test": "test/if-prod.test.sh"
